@@ -1,0 +1,23 @@
+# Database Configuration
+# Choose either SQLite or MySQL
+DATABASE_TYPE=sqlite
+# For SQLite (default)
+SQLITE_DATABASE_PATH=eldercare.db
+
+# For MySQL
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USERNAME=your_username
+MYSQL_PASSWORD=your_password
+MYSQL_DATABASE=eldercare_db
+
+# Flask Configuration
+FLASK_ENV=development
+FLASK_DEBUG=True
+SECRET_KEY=your-secret-key-here
+
+# Optional: Email Configuration (for notifications)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
